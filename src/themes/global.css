@@ -1,0 +1,77 @@
+@import url(variables.css);
+@import url(normalize.css);
+
+*{
+    
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+    /* overflow-x: hidden; */
+    max-width: 1920px;
+    width:100%,
+} 
+
+/* body {
+  max-width: 1920px;
+  width: 100%;
+  margin-inline: auto;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: var(--navy);
+  overflow-x: hidden;
+}
+
+.global__wrapper {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+} */
+/* @media (min-width: 1024px) { 
+  .container { 
+    padding: 0 6rem; 
+  } 
+}
+
+.flex-between { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.grid-2 {
+   display: grid; 
+   gap: 3rem; 
+   align-items: center; 
+  }
+
+@media (min-width: 1024px) { 
+  .grid-2 { 
+    grid-template-columns: 1fr 1fr; 
+  } 
+}
+
+.text-teal { 
+  color: var(--teal); 
+}
+
+
+/* export function Home () {
+    return (
+      <div className="app-root">
+        <div className="global-wrapper">
+          <FullHeader />
+          <Hero />
+        </div>
+      </div>
+    );
+} */ 

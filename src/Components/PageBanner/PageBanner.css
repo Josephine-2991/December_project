@@ -1,0 +1,86 @@
+
+.page-banner{
+    max-width: 1440px;
+    width: 100%;
+    background-color: var(--primary-color-ferrous);
+    color: var(--primary--text-color);
+    font-size: 12px;
+    
+}
+
+.page__banner_child{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+.banner-content-left{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 10px;
+    color: var(--primary--text-color);
+}
+.location-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+
+}
+
+.time-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    
+}
+
+#time-icon, #location-icon, #flag-icon {
+    width: 17.2px;
+    height: 17px;
+}
+
+.banner-content-right{
+    font-size: 15px;
+    display: flex;
+    background-color: #FF9E0E;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    font-weight: 400;
+    gap:10px;
+    position: relative;
+    padding: 0px 50px 0px 17px;
+}
+
+.banner_socials{
+    display: flex;
+    list-style-type: none;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.united-states{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.vertical-ruler{
+    position: absolute;
+    background-color: var(--primary-color-ferrous);
+    height:100%;
+    width: 4px;
+    right: 20px;
+}
+
